@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+
+}
+
+
+
+.material-symbols-outlined {
+
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 200,
+        'opsz' 48
+}
+
+
+/*
+Diseño Fondo Principal
+*/
+
+.inv-fondo-general {
+    background-color: #e1ecee;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.685), rgba(255, 255, 255, 0.685)), url("./Imagenes/Img-fondo/img-Fondo-Color.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    color: #866c1d;
+}
+
+/*
+Diseño Flor Azul Seccion Superior
+*/
+.img-fondo-SecArr {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 35vh;
+    width: 35vh;
+
+}
+
+#img-sup-fon-prin {
+    
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+/*
+Diseño Flor Azul Seccion Inferior
+*/
+.img-fondo-SecAba {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 45vh;
+    width: 45vh;
+
+}
+
+/*
+Copia Diseño Flor Azul Seccion Inferior
+*/
+.img-fondo-SecAba-copia {
+    margin-top: 2.1vh;
+   
+    height: 25vh;
+    width: 45vh;
+
+}
+
+#img-inf-fon-prin {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*
+Diseño Informacion Principal
+*/
+.inv-imagen-principal {
+    height: 45vh;
+    width: 45vh;
+}
+
+#imagen-principal {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.inv-conte-infogen div {
+    margin: 10px;
+
+}
+
+h1 {
+    font-family: "Playwrite MX", cursive;
+    font-size: 5vh;
+
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 3vh;
+}
+
+/*
+Diseño Segunda Seccion
+*/
+.inv-segunda-seccion {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.404), rgba(255, 255, 255, 0.404)), url(./Imagenes/Img-fondo/img-copos-nieve.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #866c1d;
+}
+
+.cont-img-paloma {
+    height: 30vh;
+}
+
+.cont-img-paloma img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.div-div-imagen {
+    height: 5vh;
+}
+
+.div-div-imagen img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cont-oracion {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.contenedor-oracion-gen {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5vh;
+}
+
+/*
+Tercera Seccion
+*/
+
+.inv-tercera-seccion {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.404), rgba(255, 255, 255, 0.404)), url(./Imagenes/Img-fondo/img-copos-nieve.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont-padres-padrinos {
+    display: flex;
+}
+
+.cont-padres-padrinos div {
+    margin: 5px;
+}
+
+.cont-padres-padrinos div div h1 {
+    color: #d2ae41;
+}
+
+.div-padres-padrinos {
+    height: 5vh;
+}
+
+.div-padres-padrinos img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.cont-info-pp {
+    background-color: white;
+    height: 25vh;
+    width: 40vh;
+    border-style: double;
+    border-color: #d2ae41;
+    color: #866c1d;
+}
+
+.estilo-padres-padrinos-nombre {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+/*
+Diseño Cuarta Seccion
+*/
+
+.inv-cuarta-seccion {
+    background-image: url(./Imagenes/Img-fondo/img-castillo-frozen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont-gen-ubicacion {
+    display: flex;
+
+}
+
+.cont-info-general-ub {
+    background-image: url(./Imagenes/Img-fondo/img-fond-copos-cafe.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    height: 20rem;
+    width: 20rem;
+    border: 4px solid;
+    color: #866c1d;
+
+}
+
+.cont-info-general-ub span {
+    height: 8rem;
+    width: 10rem;
+    font-size: 100px;
+    color: #d2ae41;
+}
+
+.cont-info-general-ub-seg {
+    background-position: bottom;
+}
+
+.estilo-nombre-ubciacion-titulo {
+    font-family: "Libre Baskerville", serif;
+    padding: 10px;
+    font-weight: 700;
+    font-style: normal;
+    color: #0367A6;
+    font-size: 20px;
+}
+
+.estilo-direccion{
+    font-size: 12px;
+    padding: 8px;
+}
+
+.estilo-fecha-lugar{
+    margin: 5px;
+    font-size: 30px;
+    color: #866c1d;
+    font-family: "Grey Qo", cursive;
+}
+
+/*
+Diseño Quinta Seccion
+*/
+
+.inv-quinta-seccion {
+    background-image: url(./Imagenes/Fam-Garcia-Bizarro.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+
+    /*
+    Diseño Flor Azul Seccion Superior Cambio Pantalla
+    */
+    .img-fondo-SecArr {
+        height: 20vh;
+        width: 20vh;
+    }
+
+    /*
+    Diseño Flor Azul Seccion Inferior Cambio Pantalla
+    */
+    .img-fondo-SecAba {
+        height: 15vh;
+        width: 15vh;
+        bottom: 0px;
+        right: -55px;
+    }
+}
+
+/********
+*
+Practica Animacion
+*
+********/
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.animacion-creciente-scroll {
+    view-timeline-name: --oracion;
+    view-timeline-axis: block;
+
+    animation-timeline: --oracion;
+    animation-name: show;
+
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
+}
+
+.animacion-creciente-scroll-regalo {
+    view-timeline-name: --oracion;
+    view-timeline-axis: block;
+
+    animation-timeline: --oracion;
+    animation-name: show;
+
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode: both;
+}
+
+@media screen and (max-width: 600px) {
+
+    /*
+    Diseño Flor Azul Seccion Superior Cambio Pantalla
+    */
+    .img-fondo-SecArr {
+        height: 20vh;
+        width: 20vh;
+    }
+
+    /*
+    Diseño Flor Azul Seccion Inferior Cambio Pantalla
+    */
+    .img-fondo-SecAba {
+        height: 20vh;
+        width: 20vh;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .cont-oracion {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .div-div-imagen {
+        height: 4vh;
+    }
+
+    .cont-img-paloma {
+        height: 25vh;
+    }
+
+    .cont-padres-padrinos {
+        flex-direction: column;
+    }
+
+    #cont-inf-padrinos {
+        margin-top: 50px;
+    }
+
+    /*Diseño Telefono Cuarta Seccion */
+    .cont-gen-ubicacion {
+        flex-direction: column;
+    }
+
+    .cont-info-general-ub {
+        margin: 5px;
+        margin-top: 6vh;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .cont-info-general-ub span {
+        height: 4rem;
+        width: 7rem;
+        font-size: 80px;
+    }
+
+    .cont-info-general-ub-seg {
+        background-position: top;
+    }
+
+    .inv-quinta-seccion {
+
+        background-size: cover;
+
+    }
+
+    
+    .animacion-creciente-scroll-regalo {
+        view-timeline-name: --oracion;
+        view-timeline-axis: block;
+
+        animation-timeline: --oracion;
+        animation-name: show;
+
+        animation-range: entry 25% cover 28%;
+        animation-fill-mode: both;
+    }
+}
+
+
+
+/*
+@media screen and (min-width: 600px) and (max-width: 1000px)  {
+    
+    Diseño Flor Azul Seccion Superior Cambio Pantalla
+    
+    .img-fondo-SecArr{
+        height: 1vh;
+        width: 1vh;
+    }
+   
+    Diseño Flor Azul Seccion Inferior Cambio Pantalla
+   
+    .img-fondo-SecAba{
+        height: 1vh;
+        width: 1vh;
+        bottom: 0px;
+        right: -55px;
+    }
+}
+*/
