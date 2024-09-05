@@ -252,8 +252,8 @@ Diseño Cuarta Seccion
 }
 
 .cont-info-general-ub span {
-    height: 8rem;
-    width: 10rem;
+    height: 3rem;
+    width: 3rem;
     font-size: 100px;
     color: #d2ae41;
 }
@@ -281,6 +281,7 @@ Diseño Cuarta Seccion
     font-size: 30px;
     color: #866c1d;
     font-family: "Grey Qo", cursive;
+    
 }
 
 /*
@@ -288,17 +289,53 @@ Diseño Quinta Seccion
 */
 
 .inv-quinta-seccion {
-    background-image: url(./Imagenes/Fam-Garcia-Bizarro.jpeg);
+    background-image: url(./Imagenes/Img-fondo/img-fondo-cielo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #866c1d;
 }
 a {
     text-decoration: none;
 }
+
+
+.estilo-boton{
+    background-color: #202355;
+    border: solid rgb(192, 192, 192); 
+    color: #00aae4; 
+    padding: 3px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+}
+
+/* Foto Familiar*/
+
+.cont-img-dibujo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.img-fondo-gen{
+    width: 25vh;
+}
+
+.cont-img-olaf{
+    margin-right: -10vh;
+    margin-left: -10vh;
+}
+
+/*   Seccion cambio de diseño   */
+
 @media screen and (max-width: 600px) {
 
     /*
@@ -414,9 +451,9 @@ Practica Animacion
     }
 
     .cont-info-general-ub span {
-        height: 4rem;
+        height: 2rem;
         width: 7rem;
-        font-size: 80px;
+        font-size: 4vh;
     }
 
     .cont-info-general-ub-seg {
