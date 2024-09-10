@@ -101,7 +101,7 @@ Diseño Informacion Principal
 
 h1 {
     font-family: "Playwrite MX", cursive;
-    font-size: 5vh;
+    font-size: 4.5vh;
 
 }
 
@@ -327,12 +327,12 @@ a {
 }
 
 .img-fondo-gen {
-    width: 25vh;
+    width: 17vh;
 }
 
 .cont-img-olaf {
-    margin-right: -10vh;
-    margin-left: -10vh;
+    margin-right: -5vh;
+    margin-left: -5vh;
 }
 
 .cont-img-ana{
